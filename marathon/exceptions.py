@@ -26,7 +26,7 @@ class NotFoundError(MarathonHttpError):
     pass
 
 
-class InternalServerError(MarathonHttpError):
+class InternalServerError(MarathonError):
     pass
 
 
